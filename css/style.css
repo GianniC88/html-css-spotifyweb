@@ -86,14 +86,21 @@
     padding: 1rem;
   }
 
-  .crd-log-hom {
+  .crd-log-sptf {
     width: 100%;
     height: 57px;
     padding: 1rem;
   }
 
-  .img-logo-top-lft {
+  .img-logo-top-sptf,
+  .icon-home,
+  .icon-srch {
     height: 30px;
+  }
+
+  .list-top-lft {
+    padding: 1rem;
+    float: inline-start;
   }
 }
 
