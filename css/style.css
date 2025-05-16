@@ -151,3 +151,17 @@
 ul {
   list-style-type: none;
 }
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    padding: 1rem;
+    max-width: 100%;
+  }
+  .top {
+    max-width: 100%;
+  }
+
+  .top-lft {
+    max-width: 100%;
+  }
+}
