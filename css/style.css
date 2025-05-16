@@ -13,11 +13,8 @@ img {
   background-color: #141922;
 
   .top {
-    height: calc(100% / 10);
-    width: 80%;
+    height: calc(100% - 120px);
     background-color: #080b12;
-    float: inline-end;
-    text-align: end;
     color: white;
   }
 
@@ -25,10 +22,8 @@ img {
     display: flex;
     border: 1px solid white;
     border-radius: 15px;
-    float: inline-end;
     margin-right: 1rem;
 
-    margin-top: 16px;
     padding: 1rem;
     align-items: center;
 
@@ -42,7 +37,7 @@ img {
 .row {
   width: 100%;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin: 0;
 }
 
@@ -54,38 +49,42 @@ img {
 }
 
 .top-lft {
-  height: 110vh;
-  width: calc(100% / 5);
+  width: 230px;
+  /* height: 100%; */
   background-color: #000000;
-  float: inline-start;
   color: white;
 }
 
 .body-cntn {
-  width: calc(100% / 7);
-  height: 100vh;
+  width: calc(100% - 230px);
   background-color: #141922;
-  float: inline-end;
-  width: 80%;
+  overflow: auto;
 }
 
 .bottom {
   width: 100%;
-  height: calc(100% / 12);
+  height: 120px;
   background-color: gray;
-  float: inline-end;
+}
+
+.upgrade {
+  height: 90px;
+  background-color: #141922;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
 }
 
 .categ {
   width: 100%;
-  height: calc(100% / 12);
   display: flex;
 }
 
 .title-cat {
   color: #86888c;
   width: 33%;
-  height: calc(100% / 12);
   margin: 0;
 }
 
@@ -98,11 +97,10 @@ img {
 .list-categ {
   margin-top: 1rem;
   width: 100%;
-  text-align: center;
   color: #86888c;
   display: flex;
+  justify-content: center;
   padding: 1rem;
-
   font-size: 16px;
 }
 
@@ -115,11 +113,8 @@ img {
 }
 
 .fluo_ {
-  border: 1px solid yellowgreen;
+  border-bottom: 1px solid yellowgreen;
   width: 28px;
-  position: absolute;
-  margin-top: 18px;
-  margin-left: 61px;
 }
 
 .crd-log-sptf {
@@ -141,7 +136,7 @@ img {
 
 .list-top-lft {
   padding: 1rem;
-  float: inline-start;
+
   position: relative;
   font-size: 16px;
   line-height: 2.5rem;
@@ -159,11 +154,8 @@ img {
   width: 16px;
 }
 
-.col-6 {
-  width: calc(100% / 12 * 6);
-
-  width: 100%;
-  height: 30%;
+.card-col {
+  width: calc(100% / 12 * (12 / 6));
 }
 
 .flex {
