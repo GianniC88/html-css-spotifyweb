@@ -342,9 +342,44 @@ ul {
     display: none;
   }
   .card-col {
-    width: calc((100% / 12 * 2) - 10px);
+    width: 50%;
+    margin: 0;
+
+    img {
+      height: 110px;
+    }
   }
   .container {
+    width: 100%;
+  }
+
+  .list-categ {
+    display: flex;
+    justify-content: unset;
+    font-size: 12px;
+    height: -4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .brd {
+    margin-right: 0px;
+    margin-top: 3px;
+  }
+  .brd {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-right: 1rem;
+    padding: 1rem;
+    align-items: center;
+    width: 166px;
+    font-size: 12px;
+    justify-content: center;
+    height: 24px;
+  }
+
+  .body-cntn {
     width: 100%;
   }
 
@@ -357,9 +392,36 @@ ul {
     display: none;
   }
 
+  .img-bottom {
+    margin-top: 20px;
+  }
+  .img-bottom {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .info-lrft {
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
   .logo-small {
+    margin-top: 16px;
     margin: 0;
     display: inline;
+  }
+
+  .brano-nome {
+    margin-top: 16px;
+    margin-inline: 5px;
+    font-size: 10px;
+  }
+
+  .folder-heart {
+    margin-top: 16px;
+    margin-inline: 5px;
+    font-size: 10px;
   }
 }
 
