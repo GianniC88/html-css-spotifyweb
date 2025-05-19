@@ -49,12 +49,19 @@ img {
   height: 200px;
   margin-bottom: 16px;
   margin-right: 10px;
+  text-align: center;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 1rem;
+  margin-left: 0px;
+}
+
+.container-card {
+  margin-top: 45px;
+  width: 35%;
 }
 
 .top-lft {
@@ -260,7 +267,7 @@ ul {
   }
 
   .card-col {
-    width: calc((100% / 2) - 20px);
+    width: calc((100% / 2) - 10px);
   }
 }
 
