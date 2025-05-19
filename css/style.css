@@ -60,8 +60,10 @@ img {
 }
 
 .container-card {
-  margin-top: 45px;
+  margin-top: 70px;
   width: 35%;
+  margin-top: 60px;
+  margin-left: 30px;
 }
 
 .top-lft {
@@ -114,7 +116,7 @@ img {
 }
 
 .fluo {
-  border: 2px solid black;
+  border: 2px solid yellowgreen;
   position: absolute;
   height: 33px;
   margin-left: -12px;
@@ -125,7 +127,7 @@ img {
 }
 
 .fluo_ {
-  border-bottom: 2px solid #141922;
+  border-bottom: 2px solid yellowgreen;
   width: 28px;
 }
 
