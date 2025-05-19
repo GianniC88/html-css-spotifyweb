@@ -139,6 +139,13 @@ img {
   width: 100%;
   height: 57px;
   padding: 1rem;
+  position: relative;
+}
+.logo-small {
+  height: 30px;
+  position: absolute;
+  margin-top: -33px;
+  display: none;
 }
 
 .img-logo-top-sptf,
@@ -343,10 +350,16 @@ ul {
 
   .top-left {
     width: 5%;
+    margin: 0;
   }
 
-  .card-col {
-    width: calc(100% / 2);
+  .img-logo-top-sptf {
+    display: none;
+  }
+
+  .logo-small {
+    margin: 0;
+    display: inline;
   }
 }
 
